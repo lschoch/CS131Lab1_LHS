@@ -23,10 +23,6 @@ public class BasketballTeam extends SportsTeam {
 	
 	@Override
 	public String toString() {
-//		return "BasketballTeam [fieldGoals=" + fieldGoals + ", fieldGoalsAttempted=" + fieldGoalsAttempted
-//				+ ", freeThrows=" + freeThrows + ", freeThrowsAttempted=" + freeThrowsAttempted + ", teamName="
-//				+ teamName + ", teamMascot=" + teamMascot + ", headCoach=" + headCoach + ", wins=" + wins + ", losses="
-//				+ losses + "]";
 		return "BasketballTeam [teamName="+teamName+", teamMascot="+teamMascot+", headCoach="+headCoach+"\n"+
 				"wins="+wins+", losses="+losses+", fieldGoals="+fieldGoals+", fieldGoalsAttempted="+fieldGoalsAttempted+", freeThrows="+
 				freeThrows+", freeThrowsAttempted="+freeThrowsAttempted;

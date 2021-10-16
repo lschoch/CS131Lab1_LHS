@@ -14,7 +14,19 @@ public class Application {
 		NonPlayerCharacter npc = new NonPlayerCharacter();
 		//Uncomment the line below to ensure reportStructure() method works after you have written it.
 		System.out.println(npc.reportStructure());
+		System.out.println();
 		
+		// Demonstrate npc.introduce().
+		System.out.println(npc.introduce());
+		System.out.println();
+		
+		// Print npc.exclaim() six times to show that it picks randomly from the set of five phrases
+		for (int i=0; i<6; i++) {
+			System.out.println(npc.exclaim());
+		}
+		System.out.println();
+		
+		// Instantiate BasketballTeam and demonstrate the toString() and getStats() methods
 		NumberFormat nf = NumberFormat.getPercentInstance();
 		nf.setMinimumFractionDigits(1);
 		BasketballTeam hoops = new BasketballTeam("Hoopsters", "The Hoop Man", "Rick Johnson");
