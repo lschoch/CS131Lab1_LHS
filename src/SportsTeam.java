@@ -30,7 +30,7 @@ public abstract class SportsTeam {
 		}
 	}//end getWinPercentage
 	
-	abstract double getStats();
+	public abstract double [] getStats();
 	
 
 }//end class
